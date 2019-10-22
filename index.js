@@ -3,6 +3,12 @@ function aplicarDesconto (valor, desconto) {
     return valor - desconto
 }
 
+
+function soma (a, b) {
+    return a + b
+}
+
 module.exports = {
-    aplicarDesconto
+    aplicarDesconto,
+    soma
 }
